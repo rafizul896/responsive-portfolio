@@ -329,6 +329,22 @@ textarea {
         text-align: center;
     }
 
+    .about {
+        padding: 10px 15px;
+        text-align: justify;
+    }
+
+    .about-info-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+
+    .info-description {
+        font-size: 20px;
+        text-align: center;
+    }
+
     .footer {
         padding: 10px;
     }
