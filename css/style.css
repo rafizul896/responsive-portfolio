@@ -14,7 +14,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 160px;
-    /* padding: 30px 0; */
 }
 
 .nav-logo {
@@ -367,4 +366,53 @@ textarea {
         text-align: center;
         margin-top: 50px;
     }
+
+    #navber  a {
+        display: none;
+    }
+
+    .banner {
+        padding: 0px 0px 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner .profile-pic {
+        width: 100%;
+        padding-right: 10%;
+    }
+
+    nav {
+        margin: 0 10px;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .btn {
+        padding: 15px 25px;
+    }
+    
+    .contact {
+        position: relative;
+        bottom: 60px;
+        left: 200px;
+    }
+
+    .nav-logo {
+        font-size: 35px;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+
+    .nav-btn {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
 }
